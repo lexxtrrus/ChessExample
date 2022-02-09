@@ -42,7 +42,7 @@ namespace DefaultNamespace
         {
             _transform = GetComponent<Transform>();
             _meshRenderer = GetComponent<MeshRenderer>();
-            _material = _meshRenderer.sharedMaterial;
+            _material = _meshRenderer.material;
         }
 
         public void ChooseCell()

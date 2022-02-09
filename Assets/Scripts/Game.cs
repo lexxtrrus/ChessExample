@@ -72,17 +72,22 @@ public class Game : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
+                lastCell.UnchooseCell();
+                lastCell = null;
+                isCellSelected = false;
+                ClearPossibleMoves();
+                
                 var ray = _camera.ScreenPointToRay(Input.mousePosition);
 
                 if (Physics.Raycast(ray, out lastHit))
                 {
                     var last = lastHit.transform.GetComponent<Cell>();
 
-                    
-                }
-                else
-                {
-                    ClearPossibleMoves();
+                    if (_possibleMoves.Any(c => c.transform == last.transform))
+                    {
+                        // TO DO
+                        // change chosen figure position 
+                    }
                 }
             }
         }
@@ -130,29 +135,13 @@ public class Game : MonoBehaviour
             case FigureType.Pawn:
                 var pos = cell.transform.position;
                 var x = (int)pos.x;
-                var y = (int)pos.y;
+                var y = (int)pos.z;
 
                 if (y < 7)
                 {
-                    if (_cells[x, y].FigureType == FigureType.None)
+                    if (_cells[x, y + 1].FigureType == FigureType.None)
                     {
-                        _possibleMoves.Add(_cells[x,y]);
-                    }
-
-                    if (x > 0 && y < 7)
-                    {
-                        if (_cells[x - 1, y + 1].FigureType != FigureType.None )
-                        {
-                            _possibleMoves.Add(_cells[x - 1,y + 1]);
-                        }
-                    }
-
-                    if (x < 7 && y < 7)
-                    {
-                        if (_cells[x + 1, y + 1].FigureType != FigureType.None )
-                        {
-                            _possibleMoves.Add(_cells[x + 1,y + 1]);
-                        }
+                        _possibleMoves.Add(_cells[x,y + 1]);
                     }
                 }
 

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50c23a413d524a1393ee4dab7913f492, type: 3}
+  m_Name: DefaultMode
+  m_EditorClassIdentifier: 
+  _deskData: {fileID: 11400000, guid: a79551057cf35b84e870053599f19ceb, type: 2}
+  _cellPrefab: {fileID: 6504131648031345728, guid: 8e8db32ab87a37c41a9ab935471f5067, type: 3}
+  _whitesFigures:
+  - pos: {x: 0, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 1, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 2, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 3, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 4, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 5, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 6, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 7, y: 1}
+    _figureData: {fileID: 11400000, guid: 18844de58b47aee44bf1784b85f7a868, type: 2}
+  - pos: {x: 0, y: 0}
+    _figureData: {fileID: 11400000, guid: 93fde7f960904f94a977b7b62e7aebe6, type: 2}
+  - pos: {x: 1, y: 0}
+    _figureData: {fileID: 11400000, guid: 9dfdf29c0fb863041986e0588790fdf4, type: 2}
+  - pos: {x: 2, y: 0}
+    _figureData: {fileID: 11400000, guid: c75a0f4dbae0fc74f8395600720b204a, type: 2}
+  - pos: {x: 3, y: 0}
+    _figureData: {fileID: 11400000, guid: 3454a07e9b19eaf49bc654bd8fb97851, type: 2}
+  - pos: {x: 4, y: 0}
+    _figureData: {fileID: 11400000, guid: fe0331125e89f444988876f836165afa, type: 2}
+  - pos: {x: 5, y: 0}
+    _figureData: {fileID: 11400000, guid: c75a0f4dbae0fc74f8395600720b204a, type: 2}
+  - pos: {x: 6, y: 0}
+    _figureData: {fileID: 11400000, guid: 9dfdf29c0fb863041986e0588790fdf4, type: 2}
+  - pos: {x: 7, y: 0}
+    _figureData: {fileID: 11400000, guid: 93fde7f960904f94a977b7b62e7aebe6, type: 2}
+  _blackFigures:
+  - pos: {x: 0, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 1, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 2, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 3, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 4, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 5, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 6, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 7, y: 6}
+    _figureData: {fileID: 11400000, guid: bd58dba8c260fbb4aa8622ec36e5aa86, type: 2}
+  - pos: {x: 0, y: 7}
+    _figureData: {fileID: 11400000, guid: ad8769f9caafe3041b27d5afc9ce8238, type: 2}
+  - pos: {x: 1, y: 7}
+    _figureData: {fileID: 11400000, guid: 04d0cdab6b86e064ea232375c9dfb54f, type: 2}
+  - pos: {x: 2, y: 7}
+    _figureData: {fileID: 11400000, guid: 460f63cef586c0046aa6016dada7d4a2, type: 2}
+  - pos: {x: 3, y: 7}
+    _figureData: {fileID: 11400000, guid: fce7187996e376d4c8e6451852d9b7e5, type: 2}
+  - pos: {x: 4, y: 7}
+    _figureData: {fileID: 11400000, guid: 14386f88056d0ae48ad119bac02821ca, type: 2}
+  - pos: {x: 5, y: 7}
+    _figureData: {fileID: 11400000, guid: c75a0f4dbae0fc74f8395600720b204a, type: 2}
+  - pos: {x: 6, y: 7}
+    _figureData: {fileID: 11400000, guid: 04d0cdab6b86e064ea232375c9dfb54f, type: 2}
+  - pos: {x: 7, y: 7}
+    _figureData: {fileID: 11400000, guid: ad8769f9caafe3041b27d5afc9ce8238, type: 2}
